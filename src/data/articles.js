@@ -27,9 +27,9 @@ function article_1() {
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
+					<div className="paragraph"></div>
 					<img
-						src="https://picsum.photos/200/300"
+						src="https://www.pngkey.com/png/detail/571-5715694_cloud-computing.png"
 						alt="random"
 						className="randImage"
 					/>
@@ -42,7 +42,7 @@ function article_1() {
 function article_2() {
 	return {
 		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		title: "Artificial In Intelligence HealthCare Centers and Many Other Institution",
 		description:
 			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
 		style: ``,
@@ -54,7 +54,18 @@ function article_2() {
 		],
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
+			
+				{/* <h1>Content of article 2</h1> */}
+
+				<div className="article-content">
+					<div className="paragraph"></div>
+					<img
+						src="https://futureskillsprime.in/sites/default/files/inline-images/Blog%20Images_Internal_551x313_How%20to%20Learn%20Artificial%20Intelligence%20Blog%20Image%201_0.jpg"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
+
 			</React.Fragment>
 		),
 	};
