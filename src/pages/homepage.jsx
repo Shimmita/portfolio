@@ -105,34 +105,16 @@ const Homepage = () => {
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
 									<ul>
-										<li>Android</li>
-										<li>Flutter </li>
-										<li>React Native</li>
-										<li>React.js</li>
-										<li>Node.js Express</li>
-										<li>SpringBoot </li>
-										<li>Php Laravel</li>
+										<li>Android Application Development</li>
+										<li>React.js Web Application Development</li>
+										<li>Bootstrap Framework for User Interface </li>
+										<li>Node.js Express Backend Development</li>
+										<li>Java Spring Boot Backend Development</li>
+										<li>Django REST Framework Backend Development</li>
+										
 									</ul>
-									<div>
-									Welcome visitor, you can check{" "}
-										<a
-											href="/projects"
-											style={{
-												margin: "4px",
-												textDecoration: "none",
-												fontWeight: "bold",
-												color: "cadetblue",
-											}}
-										>
-											my projects sections
-										</a>
-										and explore the amazing scalable software
-										projects that i have worked on using the
-										aforementioned technologies which are in
-										my github repository. Furthermore, you
-										are highly welcomed to contribute to
-										any of the projects even if it's a mere kind
-										a suggestion. Thanks in advance.
+									<div>									
+									I develop vibrant mobile and web applications, crafting interfaces that sing and backends that hum. Let's create something beautiful together. I'm your one-stop shop for exceptional software. Let's turn your vision into applause!
 									</div>
 								</div>
 							</div>

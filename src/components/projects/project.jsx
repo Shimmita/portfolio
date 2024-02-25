@@ -13,8 +13,9 @@ const Project = (props) => {
 			<div className="project">
 				<Link to={link}>
 					<div className="project-container">
+						
 						<div className="project-logo">
-							<img src={logo} alt="logo" />
+							<img src={logo} alt="logo" style={{ maxWidth:'50', minWidth:'50'}} />
 						</div>
 						<div className="project-title">{title}</div>
 						<div className="project-description">{description}</div>

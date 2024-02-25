@@ -16,8 +16,8 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Yes Full-Stack Mobile And Web Application Developer",
-		description: "Expertise In:",
+		title: "Software Engineer",
+		description: "Proficiency:",
 	},
 
 	about: {
@@ -33,82 +33,82 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Church Evangelists (Android)",
+			title: "Blood-Bank-Management-Sysytem",
 			description:
-				"An android application designed to make it easier for the church ministers to propagate their agendas in a very efficient way i.e tracking of all registered members, sending notifications to all members about upcoming events, tracking all the fullfiled events and those that are not yet. Developed the application using the Modern Android JetpakCompose UI library (Kotlin).Backend technology used was Firebase and SQLite for data Storage",
-			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Android_logo_2019.png/479px-Android_logo_2019.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"React based web application powered by Node.js Express backend for optimatisation of blood bank activities such as keeping inventories of blood donors, recipients,keeping track of current blood bank levels,scheduling and managing of donor appointments. Skills: Firebase, Java, Kotlin.",
+			logo: "https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp",
+			linkText: "github",
+			link: "https://github.com/Shimmita/Blood-Bank-Management-System",
 		},
 
 		{
-			title: "Marketing App CM (Android)",
+			title: "JobsAPI254",
 			description:
-				"Android E-commerce based application.It enables one to advertise their products online. A registerd user enquires for an advertised product and gets in touch with the seller who posted the product to the platform. Initially the application was intended to operate within Universities and Colleges where Comrades could easily advertise their products. Developed the application using (Kotlin and Java).Backend technology used was Firebase and SQLite for data Storage",
-			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Android_logo_2019.png/479px-Android_logo_2019.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Facilitates users of the api to easily locate jobs from a collection of jobs provided. Currently the API is meant to locate Techjobs but with time it will scale to provide other jobs too. Skils: Node.js Express and MongoDB, Mongo Atlas, API Hosting.",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7zQwsBdrzNEq0Wyk2PzHHbCxT8fafhH7Q_Sd91kwjg&s",
+			linkText: "github",
+			link: "https://github.com/Shimmita/jobsAPI254 ",
 		},
 
 		{
-			title: "School Management System (Android)",
+			title: "JobWave ",
 			description:
-				"Android application which was my third year project at Maseno University School Of Computing and Informatics in pursuit of Bachelors Degree in In Information Technology. The Project entails in making schools (High Schools and Primary Schools) to adopt to modern way of managing the school activities and eradicate the traditional way of saving the records of academics, finances and many more on papers. Develeoped using (Kotlin). Backend technology used was Firebase and SQLite for data Storage",
-			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Android_logo_2019.png/479px-Android_logo_2019.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"JobWave is a cutting-edge Android app built with Jetpack Compose, tailored for professionals in the IT field to easily locate IT related jobs and apply for them in an ABC way. Skils: JetpakCompose, Retrofit, Node.js Express and MongoDB.",
+			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
+			linkText: "github",
+			link: "https://github.com/Shimmita/JobWave",
 		},
+	
 		{
-			title: "Software Maverick (React)",
+			title: "Market CM",
 			description:
-				"A React based web appliaton designed to make it easier for enthusiastic learners in Software Development, Computer Networking, Machine Learning and Artificial Intelligence to access the best career mentorship from where to begin and progress in the aforementioned fields. The platform provides links to the best sites ,tutors and other study materials to those fields. Finally the platform provides Links to the available Job opportunities mostly in Tech Industry  where the Interested candidates can apply for them and by good luck secure a position.Backend technology used was Node.js Express,Firebase and MongoDB. SpringBoot used for end to end testing of REST Api communcation and Interaction during the development stage",
-			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7vKJZQEJJORN-kUSDjVjZK5WpO3YdtQQA6Ay2KFw5WVpHhOEWiFztdqdxBvESB5BPkGc&usqp=CAU",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Softwarer Maverick (ReactNative)",
-			description:
-				"A cross-platform mobile application developed using ReactNative a react based freamwork that allows React developers to develop applications that runs on Android and IOS. Developed the application using ReactNative so as to understand and perfect my skills not only being hinged to React(web app) but also allowing a room for flexibility in ReactNative(cross-platform mobile apps). Thus, the project facilitated my understanding in developing mobile applications using cross-platform technologies such as react native.Database Used was SQLite. The Backend Used was Firebase and Node.js Express",
-			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7vKJZQEJJORN-kUSDjVjZK5WpO3YdtQQA6Ay2KFw5WVpHhOEWiFztdqdxBvESB5BPkGc&usqp=CAU",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Android based marketing application that facilitates its registered users to easily buy or  sell their products online. The project targets students alias comrades who are in the universities or collages to market their second hand products within their versity arena. Skils: Java, Kotlin, Coroutines, Firebase.",
+			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
+			linkText: "github",
+			link: "https://github.com//Shimmita/Marketing-App",
 		},
 
 		{
-			title: "Marketing App CM (Vanilla PHP)",
+			title: "School-Management-System ",
 			description:
-				"This is Web version of the aforementioned android project. This project honed my skills in understanding the basic and complex concepts in PHP programming language and its use in web development .Database used was MYSQL and thus understood the interaction between PHP, Javascript, HTML, CSS and MYSQL interaction. This paved me a way to an even understanding of PHP Laravel Framwork.",
-			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Android Based Mobile Application whic helps in automation of various school Activities thus improving on the performance of the students and overal school output. Skills: Java, Kotlin, Firebase.",
+			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
+			linkText: "github",
+			link: "https://github.com//Shimmita/School-Management-System.",
 		},
 
 		{
-			title: "Job Finder (Laravel)",
+			title: "paperpedia_flutter ",
 			description:
-				"A web application platform designed entirely for the purpose of bringing available job opportunities to users. by default the application on launching on a web browser such as firefox, chrome or safari it displays a content of job opportunities or vacancies available and if one is intereted in a particular job he/she can then proceed with application. For the Application process to be successful the user should create an account or login to his account in order to have a full access to the job details and link-up to the Hiring Manager (HR) or the  Hiring Manager. The Backend Technology used to develop the platform  is  PHP Laravel, MySQL and Firebase",
-			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Forget the library scramble! Paperpedia, your sleek Flutter app, grants instant access to a vast library of past papers. Effortlessly search by subject, year, and even topic connect with classmates in a vibrant community. Paperpedia: Your one-stop shop for conquering exams and unlocking academic success.Skills: Dart, Flutter, SQlite, Firebase.",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8UpzeUZ8uXraZ3XjvO8pFYghl7OiQSvZauchl-7uDQ&s",
+			linkText: "github",
+			link: "https://github.com//Shimmita/paperpedia_flutter",
 		},
 
 		{
-			title: "Daku All Schools News App (Flutter)",
+			title: "Django_REST_Framwork App ",
 			description:
-				"Cross-platform mobile application developed to facilitate users to obtain first hand information that is raving in Educational institutions such the Universities, Colleges and High Schools. After conducting my reasearch i realised that though news concerning what is happening in schools gets aired by the Broadcasting Corporations , but it's usually altered and most of the time aired lately thus delaying in delivery hence, the app caters for this. Flutter being one of the Hottest Upcoming Cross-platform mobile development framework, i decided to diverse and merge my skills into it thus, gained and mastered flutter tech skills. Backend technology used was Firebase, REST APi and SQLite for data Storage",
-			logo: "https://static-00.iconduck.com/assets.00/flutter-plain-icon-827x1024-okfp25wt.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Applying the concepts learnt from Python Django REST framework into practical. The concepts of Serialisation, using the Mixins and Generics in creating Restful APIs in a fastest way. Learning about Authentication and its imporntance of protecting routes from unauthorised access.Skills:Python, Django REST, MySQL.",
+			logo: "https://pnghq.com/wp-content/uploads/how-to-create-a-python-png-with-a-transparent-background-2.png",
+			linkText: "github",
+			link: "https://github.com//Shimmita/django_REST_framwork_lab ",
 		},
 		{
-			title: "Study App  (Flutter)",
+			title: "E-Commerce App Vanilla-PHP ",
 			description:
-				"Cross-platform mobile application  that enables students from from various Educational institutions ranging from High Schools-Universities being able to access the past paper exams and other revision materials which could be of much help during the final touches to any examinations. The app brings the study materials in one pool of collection where one can access them easily as opposed to common way of looking for such materials from site to site and at most of the time one ends up wasting time and to a surprise level the intended resource(s) being missed out. Firebase for backend and Storage in Addtion to SQlite DB",
-			logo: "https://static-00.iconduck.com/assets.00/flutter-plain-icon-827x1024-okfp25wt.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Responsive Web app for marketing products globally. Main code base is vanilla PHP. Used MysQL database for storage and retrieval of data. This was my school project for mastering PHP. Skills: PHP, MySQL.",
+			logo: "https://w7.pngwing.com/pngs/751/3/png-transparent-logo-php-html-others-text-trademark-logo-thumbnail.png",
+			linkText: "github",
+			link: "https://github.com//Shimmita/Marketing-App-Vanilla-PHP ",
+		},
+		{
+			title: "ChurchEvangelists ",
+			description:
+				"jetpak based android application built for managing church activities such as church membership registration and management, tracking of upcoming church events etc. Skills: Java, Kotlin, JetpakCompose Firebase.",
+			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
+			linkText: "github",
+			link: "https://github.com//Shimmita/hurchEvangelists ",
 		},
 	],
 };
