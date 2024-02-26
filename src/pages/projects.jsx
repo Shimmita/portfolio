@@ -41,7 +41,7 @@ const Projects = () => {
 						<div className="title projects-title">
 							Developed Apps
 						</div>
-						<h5 style={{ textAlign:'center' }}>
+						<p style={{ textAlign:'center' }}>
 							{" "}
 							<a
 								href="https://github.com/Shimmita/"
@@ -49,12 +49,13 @@ const Projects = () => {
 									textDecoration: "none",
 									color: "#14b8a6",
 									padding:'.5rem',
+									borderRadius:'1rem',
 									boxShadow:'0px 0px 10px'
 								}}
 							>
 								view all coding projects
 							</a>
-						</h5>
+						</p>
 						<div className="projects-list" style={{display:'flex', justifyContent:'center', alignItems:"center", flexWrap:'wrap'}}>
 							<AllProjects />
 						</div>

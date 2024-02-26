@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Roboto:wght@500&display=swap");
 @import "./data/styles.css";
 
@@ -9,6 +10,18 @@ body {
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas,
+		"Quicksand" "Courier New", monospace;
+}
+
+* {
+	@media only screen and (max-width: 599px) {
+		font-size: x-small;
+	}
+}
+
+* {
+	@media only screen and (min-width: 600px) {
+		font-size: medium;
+	}
 }

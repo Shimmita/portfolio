@@ -36,7 +36,7 @@ const INFO = {
 			title: "Blood-Bank-Management-Sysytem",
 			description:
 				"React based web application powered by Node.js Express backend for optimatisation of blood bank activities such as keeping inventories of blood donors, recipients,keeping track of current blood bank levels,scheduling and managing of donor appointments. Skills: Firebase, Java, Kotlin.",
-			logo: "https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp",
+			logo: "https://banner2.cleanpng.com/20180720/kha/kisspng-react-javascript-library-redux-user-interface-tesseract-5b52265cc83931.4218499515321104288201.jpg",
 			linkText: "github",
 			link: "https://github.com/Shimmita/Blood-Bank-Management-System",
 		},
@@ -80,8 +80,8 @@ const INFO = {
 		{
 			title: "paperpedia_flutter ",
 			description:
-				"Forget the library scramble! Paperpedia, your sleek Flutter app, grants instant access to a vast library of past papers. Effortlessly search by subject, year, and even topic connect with classmates in a vibrant community. Paperpedia: Your one-stop shop for conquering exams and unlocking academic success.Skills: Dart, Flutter, SQlite, Firebase.",
-			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn8UpzeUZ8uXraZ3XjvO8pFYghl7OiQSvZauchl-7uDQ&s",
+				"Forget the library scramble! Paperpedia, your sleek Flutter app, grants instant access to a vast library of past papers. Paperpedia is your one-stop shop for conquering exams. Skills: Dart, Flutter, SQlite, Firebase.",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfHQVpYgAxPCQUuu5hq2hmF9M1HSnW0pBn_c8JXl4NiO0FcXlnYFWGocaCybO0NEGJc7w&usqp=CAU",
 			linkText: "github",
 			link: "https://github.com//Shimmita/paperpedia_flutter",
 		},
