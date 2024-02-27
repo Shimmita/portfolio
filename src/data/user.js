@@ -35,7 +35,7 @@ const INFO = {
 		{
 			title: "Blood Bank MS",
 			description:
-				"React based web application powered by Node.js Express backend for optimatisation of blood bank activities such as keeping inventories of blood donors, recipients,keeping track of current blood bank levels,scheduling and managing of donor appointments. Skills:React.js, Redux, Bootstrap, Node.js, Github.",
+				"React based web application powered by Node.js Express backend for optimatisation of blood bank activities such as keeping inventories of blood donors,keeping track of current blood bank levels,scheduling and managing of donor appointments. Skills:React.js, Redux, Bootstrap, Node.js, Github.",
 			logo: "https://banner2.cleanpng.com/20180720/kha/kisspng-react-javascript-library-redux-user-interface-tesseract-5b52265cc83931.4218499515321104288201.jpg",
 			linkText: "github",
 			link: "https://github.com/Shimmita/Blood-Bank-Management-System",

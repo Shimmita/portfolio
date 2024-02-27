@@ -21,14 +21,14 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	margin-top: 120px;
+	margin-top: 100px;
 }
 
 
 .socials-container {
 	display: flex;
 	flex-direction: column;
-	margin-top: 80px;
+	margin-top: 20px;
 }
 
 .contact-socials {
