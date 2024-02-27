@@ -35,7 +35,7 @@ const INFO = {
 		{
 			title: "Blood Bank MS",
 			description:
-				"React based web application powered by Node.js Express backend for optimatisation of blood bank activities such as keeping inventories of blood donors,keeping track of current blood bank levels,scheduling and managing of donor appointments. Skills:React.js, Redux, Bootstrap, Node.js, Github.",
+				"React based web application powered by Node.js Express backend for optimatisation of blood bank activities such as keeping track of current blood bank levels and managing of donor appointments. Skills:React.js, Redux, Bootstrap, Node.js, Github.",
 			logo: "https://banner2.cleanpng.com/20180720/kha/kisspng-react-javascript-library-redux-user-interface-tesseract-5b52265cc83931.4218499515321104288201.jpg",
 			linkText: "github",
 			link: "https://github.com/Shimmita/Blood-Bank-Management-System",
@@ -62,7 +62,7 @@ const INFO = {
 		{
 			title: "Market CM",
 			description:
-				"Android based marketing application that facilitates its registered users to easily buy or  sell their products online. The project targets students alias comrades who are in the universities or collages to market their second hand products within their versity arena. Skils: Java, Kotlin, Coroutines, Firebase, Github.",
+				"Android based marketing application targeting students alias comrades who are in the universities or collages to market their second hand products within their versity arena. Skils: Java, Kotlin, Coroutines, Firebase, Github.",
 			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
 			linkText: "github",
 			link: "https://github.com//Shimmita/Marketing-App",
@@ -89,7 +89,7 @@ const INFO = {
 		{
 			title: "Django_REST_CRUD ",
 			description:
-				"Applying the concepts learnt from Python Django REST framework into practical. The concepts of Serialisation, using the Mixins and Generics in creating Restful APIs in a fastest way. Learning about Authentication and its imporntance of protecting routes from unauthorised access.Skills:Python, Django REST, MySQL, Github.",
+				"Python Django REST framework into practice.Used Mixins and Generics in creating Restful APIs,use of authentication and protection routes from unauthorised access.Skills:Python, Django REST, MySQL, Github.",
 			logo: "https://pnghq.com/wp-content/uploads/how-to-create-a-python-png-with-a-transparent-background-2.png",
 			linkText: "github",
 			link: "https://github.com//Shimmita/django_REST_framwork_lab ",
@@ -97,7 +97,7 @@ const INFO = {
 		{
 			title: "E-Commerce App",
 			description:
-				"Responsive Web app for marketing products globally. Main code base is vanilla PHP. Used MysQL database for storage and retrieval of data. This was my school project for mastering PHP. Skills: PHP, MySQL, Github.",
+				"Responsive PHP Web E-commerce app. Used MysQL database for storage and retrieval of data. This was my school project for mastering PHP. Skills: PHP, MySQL, Github.",
 			logo: "https://w7.pngwing.com/pngs/751/3/png-transparent-logo-php-html-others-text-trademark-logo-thumbnail.png",
 			linkText: "github",
 			link: "https://github.com//Shimmita/Marketing-App-Vanilla-PHP ",

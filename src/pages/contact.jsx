@@ -49,7 +49,7 @@ const Contact = () => {
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at
 							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`} style={{ textDecoration:'none', color:'#14b8a6', fontWeight:'bold', fontSize:'18px'}}>
+							<a href={`mailto:${INFO.main.email}`} style={{ textDecoration:'none', color:'#14b8a6', fontWeight:'bold',}}>
 								{INFO.main.email}
 							</a>
 							. You can also reach out to me via{" "}
@@ -61,14 +61,14 @@ const Contact = () => {
 								}}
 							>
 								{" "}
-								<a href={`${INFO.socials.linkedin}`} style={{ textDecoration:'none', color:'#14b8a6', fontWeight:'bold', fontSize:'18px' }}>
+								<a href={`${INFO.socials.linkedin}`} style={{ textDecoration:'none', color:'#14b8a6', fontWeight:'bold',  }}>
 									Linkedin 
 								</a> 
 							</span>{" "}  &nbsp;
 							  where i usually post updates on
 							software development, Cybersecurity and many more other fields of Information Technology (IT World)  on linkedin. Thanks again for your
 							interest, and I look forward to hearing from you!
-							<h5>Call : <a href="tel:+254757450727" style={{ textDecoration:'none', color:'#14b8a6', fontWeight:'bold' ,fontSize:'18px' }}>+254757450727</a></h5>
+							<p>Call : <a href="tel:+254757450727" style={{ textDecoration:'none', color:'#14b8a6', fontWeight:'bold'  }}>+254757450727</a></p>
 						</div>
 					</div>
 
