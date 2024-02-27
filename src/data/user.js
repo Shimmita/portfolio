@@ -33,24 +33,6 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Blood Bank MS",
-			description:
-				"React based web application powered by Node.js Express backend for optimatisation of blood bank activities such as keeping track of current blood bank levels and managing of donor appointments. Skills:React.js, Redux, Bootstrap, Node.js, Github.",
-			logo: "https://banner2.cleanpng.com/20180720/kha/kisspng-react-javascript-library-redux-user-interface-tesseract-5b52265cc83931.4218499515321104288201.jpg",
-			linkText: "github",
-			link: "https://github.com/Shimmita/Blood-Bank-Management-System",
-		},
-
-		{
-			title: "JobsAPI254",
-			description:
-				"Node.js Express Restful API with MongoDB Atlas for locating jobs around the globe. Currently the API is meant to locate techjobs. Skils: Node.js Express and MongoDB, Mongo Atlas, API Hosting, Github",
-			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7zQwsBdrzNEq0Wyk2PzHHbCxT8fafhH7Q_Sd91kwjg&s",
-			linkText: "github",
-			link: "https://github.com/Shimmita/jobsAPI254 ",
-		},
-
-		{
 			title: "JobWave ",
 			description:
 				"JobWave is a cutting-edge Android app built with Jetpack. Its Backend is Node.js. It's tailored for professionals in the IT field to easily locate IT related jobs and apply for them in an ABC way. Skils: JetpakCompose, Retrofit,Kotlin, Github",
@@ -75,6 +57,24 @@ const INFO = {
 			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
 			linkText: "github",
 			link: "https://github.com//Shimmita/School-Management-System.",
+		},
+		
+		{
+			title: "Blood Bank MS",
+			description:
+				"React based web application powered by Node.js Express backend for optimatisation of blood bank activities such as keeping track of current blood bank levels and managing of donor appointments. Skills:React.js, Redux, Bootstrap, Node.js, Github.",
+			logo: "https://banner2.cleanpng.com/20180720/kha/kisspng-react-javascript-library-redux-user-interface-tesseract-5b52265cc83931.4218499515321104288201.jpg",
+			linkText: "github",
+			link: "https://github.com/Shimmita/Blood-Bank-Management-System",
+		},
+
+		{
+			title: "JobsAPI254",
+			description:
+				"Node.js Express Restful API with MongoDB Atlas for locating jobs around the globe. Currently the API is meant to locate techjobs. Skils: Node.js Express and MongoDB, Mongo Atlas, API Hosting, Github",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7zQwsBdrzNEq0Wyk2PzHHbCxT8fafhH7Q_Sd91kwjg&s",
+			linkText: "github",
+			link: "https://github.com/Shimmita/jobsAPI254 ",
 		},
 
 		{
