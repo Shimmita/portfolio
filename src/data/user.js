@@ -44,7 +44,7 @@ const INFO = {
 		{
 			title: "JobsAPI254",
 			description:
-				"Facilitates users of the api to easily locate jobs from a collection of jobs provided. Currently the API is meant to locate Techjobs but with time it will scale to provide other jobs too. Skils: Node.js Express and MongoDB, Mongo Atlas, API Hosting, Github",
+				"Node.js Express Restful API with MongoDB Atlas for locating jobs around the globe. Currently the API is meant to locate techjobs. Skils: Node.js Express and MongoDB, Mongo Atlas, API Hosting, Github",
 			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7zQwsBdrzNEq0Wyk2PzHHbCxT8fafhH7Q_Sd91kwjg&s",
 			linkText: "github",
 			link: "https://github.com/Shimmita/jobsAPI254 ",
