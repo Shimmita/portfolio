@@ -17,7 +17,7 @@ const INFO = {
 
 	homepage: {
 		title: "Software Engineer",
-		description: "Proficiency:",
+		description: "proficiency:",
 	},
 
 	about: {
@@ -56,7 +56,7 @@ const INFO = {
 				"Android Based Mobile Application whic helps in automation of various school Activities thus improving on the performance of the students and overal school output. Skills: Java, Kotlin, Firebase, Github.",
 			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
 			linkText: "github",
-			link: "https://github.com//Shimmita/School-Management-System.",
+			link: "https://https://github.com/Shimmita/School-Management-System",
 		},
 		
 		{
@@ -103,12 +103,12 @@ const INFO = {
 			link: "https://github.com//Shimmita/Marketing-App-Vanilla-PHP ",
 		},
 		{
-			title: "ChurchEvangelists ",
+			title: "Church MS ",
 			description:
 				"jetpak based android application built for managing church activities such as church membership registration and management, tracking of upcoming church events etc. Skills: Java, Kotlin, JetpakCompose Firebase, Github.",
 			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
 			linkText: "github",
-			link: "https://github.com//Shimmita/hurchEvangelists ",
+			link: "https://github.com//Shimmita/churchEvangelists ",
 		},
 
 		{
@@ -117,7 +117,7 @@ const INFO = {
 				"A React.js FrontEnd digital potfolio which i used to develop my potfolio with, yes this potflio! and hosted it on Vercel. during the development I honed my FrontEnd development of using React.js and more other advanced concepts. Skill: React.js, Hosting Web App, Github.",
 			logo: "https://banner2.cleanpng.com/20180720/kha/kisspng-react-javascript-library-redux-user-interface-tesseract-5b52265cc83931.4218499515321104288201.jpg",
 			linkText: "github",
-			link: "https://github.com//Shimmita/hurchEvangelists ",
+			link: "https://github.com/Shimmita/portfolio ",
 		},
 	],
 };
