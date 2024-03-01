@@ -7,7 +7,6 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "﻿https://x.com/ShimitaDouglas?t=xcixna6UPjkOa3wdmOLKdQ&s=09",
 		github: "https://github.com/Shimmita",
 		linkedin: "https://www.linkedin.com/in/douglas-oundo-aa1b35255",
 		instagram: "https://instagram.com/",

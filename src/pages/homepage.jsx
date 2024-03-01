@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import {
 	faGithub,
 	faInstagram,
+	faLinkedin,
 	faStackOverflow,
 	faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
@@ -134,14 +135,15 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
+								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faTwitter}
+									icon={faStackOverflow}
 									className="homepage-social-icon"
 								/>
+								
 							</a>
 							<a
 								href={INFO.socials.github}
@@ -154,12 +156,12 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -178,7 +180,7 @@ const Homepage = () => {
 
 						<div className="page-footer">
 							<Footer />
-						</div>
+						</div> 
 					</div>
 				</div>
 			</div>
