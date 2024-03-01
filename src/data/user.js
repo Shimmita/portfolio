@@ -55,7 +55,7 @@ const INFO = {
 				"Android Based Mobile Application whic helps in automation of various school Activities thus improving on the performance of the students and overal school output. Skills: Java, Kotlin, Firebase, Github.",
 			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
 			linkText: "github",
-			link: "https://https://github.com/Shimmita/School-Management-System",
+			link: "https://github.com/Shimmita/School-Management-System",
 		},
 		
 		{
