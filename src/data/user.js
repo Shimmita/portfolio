@@ -10,8 +10,11 @@ const INFO = {
 		github: "https://github.com/Shimmita",
 		linkedin: "https://www.linkedin.com/in/douglas-oundo-aa1b35255",
 		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/users/21065934/shimita-douglas",
+		stackoverflow:
+			"https://stackoverflow.com/users/21065934/shimita-douglas",
 		facebook: "https://facebook.com/",
+		email: "mailto:+254757450727",
+		phone: "tel:+254757450727",
 	},
 
 	homepage: {
@@ -21,7 +24,7 @@ const INFO = {
 
 	about: {
 		title: "My Curriculum Vitae (C.V)",
-		description:""
+		description: "",
 	},
 
 	articles: {
@@ -39,7 +42,7 @@ const INFO = {
 			linkText: "github",
 			link: "https://github.com/Shimmita/JobWave",
 		},
-	
+
 		{
 			title: "Market CM",
 			description:
@@ -57,7 +60,7 @@ const INFO = {
 			linkText: "github",
 			link: "https://github.com/Shimmita/School-Management-System",
 		},
-		
+
 		{
 			title: "Blood Bank MS",
 			description:

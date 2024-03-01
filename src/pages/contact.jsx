@@ -46,29 +46,8 @@ const Contact = () => {
 						<div className="subtitle contact-subtitle">
 							Thank you for your interest in getting in touch with
 							me.I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
-							<a href={`mailto:${INFO.main.email}`} style={{ textDecoration:'none', color:'#14b8a6', fontWeight:'bold',}}>
-								{INFO.main.email}
-							</a>
-							. You can also reach out to me via{" "}
-							<span
-								style={{
-									marginLeft: ".5rem",
-									
-									
-								}}
-							>
-								{" "}
-								<a href={`${INFO.socials.linkedin}`} style={{ textDecoration:'none', color:'#14b8a6', fontWeight:'bold',  }}>
-									Linkedin 
-								</a> 
-							</span>{" "}  &nbsp;
-							  where i usually post updates on
-							software development, Cybersecurity and many more other fields of Information Technology (IT World)  on linkedin. Thanks again for your
-							interest, and I look forward to hearing from you!
-							<p>Call : <a href="tel:+254757450727" style={{ textDecoration:'none', color:'#14b8a6', fontWeight:'bold'  }}>+254757450727</a></p>
+							suggestions. If you have any specific question or
+							comment feel free to contact via the provided channels below.
 						</div>
 					</div>
 

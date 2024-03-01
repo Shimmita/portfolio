@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
 	faTwitter,
 	faGithub,
@@ -11,19 +11,32 @@ import {
 import INFO from "../../data/user";
 
 import "./styles/socials.css";
+import { faMessage } from "@fortawesome/free-regular-svg-icons";
 
 const Socials = () => {
 	return (
 		<div className="socials">
 			<div className="social">
-				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
+				<a href={INFO.socials.phone} rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faTwitter}
+							icon={faPhone}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Twitter</div>
+					<div className="social-text">Call Me</div>
+				</a>
+			</div>
+
+			<div className="social">
+				<a href={INFO.socials.email}  rel="noreferrer">
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faMailBulk}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">Email Me</div>
 				</a>
 			</div>
 
@@ -54,8 +67,6 @@ const Socials = () => {
 					<div className="social-text">Follow on LinkedIn</div>
 				</a>
 			</div>
-
-			
 
 			<div className="email">
 				<div className="email-wrapper">

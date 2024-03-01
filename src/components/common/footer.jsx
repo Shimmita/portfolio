@@ -29,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Shimmian.dev. All Rights Reserved.
+						© 2024 shimmiandev. All Rights Reserved.
 					</div>
 				</div>
 			</div>
