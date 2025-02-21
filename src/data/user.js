@@ -1,6 +1,33 @@
+import Bootstrap from "../images/bootsrap.jpeg";
+import Django from "../images/django.png";
+import Flutter from "../images/flutter.png";
+import GCPFirebase from "../images/gcp_1.png";
+import Javascript from "../images/javascript.png";
+import Kotlin from "../images/Kotlin.png";
+import LinuxOS from "../images/linux.jpeg";
+import Material from "../images/maui.png";
+import Android from "../images/mobile_andro.png";
+import MongoDB from "../images/mongo.png";
+import MySQL from "../images/mysql.png";
+import Nextjs from "../images/nextjs.png";
+import Nodjs from "../images/node.png";
+import Numpy from "../images/numpy.png";
+import Pandas from "../images/pandas.png";
+import PHP from "../images/php_1.png";
+import Python from "../images/python.jpeg";
+import React from "../images/react.png";
+import Reddis from "../images/redis.png";
+import Redux from "../images/redux.png";
+import Renders from "../images/render.png";
+import Sqlite from "../images/sqlite.png";
+import Tailwind from "../images/tailcss.png";
+import Tensorflow from "../images/tensor.png";
+import Typescript from "../images/typescript.png";
+import Vercel from "../images/vercel.png";
+
 const INFO = {
 	main: {
-		title: "SHIMITA DOUGLAS",
+		title: "DOUGLAS SHIMITA OUNDO",
 		name: "Shimita Douglas",
 		email: "shimitadouglas@gmail.com",
 		logo: "../logo.jpg",
@@ -13,13 +40,13 @@ const INFO = {
 		stackoverflow:
 			"https://stackoverflow.com/users/21065934/shimita-douglas",
 		facebook: "https://facebook.com/",
-		email: "mailto:+254757450727",
+		email: "mailto:shimitadouglas@gmail.com",
 		phone: "tel:+254757450727",
 	},
 
 	homepage: {
 		title: "Software Engineer",
-		description: "proficiency:",
+		degree: "BSc. Information Technology",
 	},
 
 	about: {
@@ -34,92 +61,146 @@ const INFO = {
 	},
 
 	projects: [
+		// javascript
 		{
-			title: "JobWave ",
+			title: "Next Ride Market Platform",
 			description:
-				"JobWave is a cutting-edge Android app built with Jetpack. Its Backend is Node.js. It's tailored for professionals in the IT field to easily locate IT related jobs and apply for them in an ABC way. Skils: JetpakCompose, Retrofit,Kotlin, Github",
-			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
-			linkText: "github",
+				"full stack web application that provides functionalities of uploading vehicles on the platform by the owners, leasing and buying. take it like a virtual show room for vehicles. provided the best transition moment of exposure from bare react javascript to full stack next with typescript. typescript skills have been improvised greatly and use of server side rendering capabilities of nextjs makes it good for development of robust progressive full stack web applications.",
+			logos: [Nextjs, Typescript, Tailwind, MongoDB],
+			link: "https://github.com/Shimmita/RideMarket-Nexjs-App",
+		},
+
+		{
+			title: "React Metatron Dev Platform ",
+			description:
+				"Socio-tech platform which bridges the gap between the prodigy and noob tech enthusiasts into one common location to foster interaction through, instant messaging, posting tech articles and milestones, participating in live software development events, job application from a diverse pool of sources, access to free and paid courses from the the tech experts so that you could learn at your pace!. the app uses react, redux toolkit, redux-persist, bootsrap and material ui for the frontend.",
+			logos: [React, Redux, Bootstrap, Material],
+			link: "https://github.com/Shimmita/metatron-dev-platform",
+		},
+		{
+			title: "Nodejs Metatron Dev Platform",
+			description:
+				"Backend application that powers metatron dev platform frontend. app follows nodejs best practices and designs using MVC approach. reddis for temporary caching of frequently accessed data to reduce overwhelming of the database, uses cloudinary, supabase, firabase and mongodb atlas for storage of data. embedded media compression capabilities using ffmpeg, sharp for converting images to webp formats. all these have ensured reduced upload and download size of the media thus high performance.",
+			logos: [Nodjs, Reddis, GCPFirebase, MongoDB],
+			link: "https://github.com/Shimmita/metatron-backend-node",
+		},
+
+		{
+			title: "React Blood Bank MS",
+			description:
+				"An interesting project that facilitated award of my bachelor's degree at Maseno University. This was my fourth Year project that was aimed to cater challanges involved in the blood donations and distribution during the times of blood crisis. manages donor records and timely appointments for blood donation, tracks available blood levels in the registered blood bank centers, provides statistics and analytics of current blood banks for future insights. uses locations for locating nearest blood bank centers",
+			logos: [React, Bootstrap, Nodjs, MongoDB],
+			link: "https://github.com/Shimmita/Blood-Bank-Management-System",
+		},
+		{
+			title: "React My Digital Potfolio",
+			description:
+				"Yes, this portfolio you are scrolling its content to know about my experise is backed by this project, haa haa!. learning the intricacies of react, bootstrap and web hosting triggered my curiosity to develop my awsome portfolio that could contain my expetise information on the fly. during the development i honed my skills and proficiency in the use of react and how very time saving the libray is aimed to create articulated UI for frontend. The project is hosted on vercel cloud provider and can be accessed anywhere globally.",
+			logos: [Javascript, React, Vercel],
+			link: "https://github.com/Shimmita/portfolio ",
+		},
+
+		{
+			title: "Nodejs JobsAPI254",
+			description:
+				"Backend platform that can be integrated by any frontend to fetch information about jobs that are availbale globally specifically in tech industry. app uses puppeteer javascript to traverse through diverse job application sites and collects the information for saving in MongoDB Atlas. the app uses modern MVC architecture. Its hosted on Renders platform, and maintainance i does continuously whenever applicable to ensure seamless flow of information that is updated.",
+			logos: [Nodjs, Javascript, MongoDB, Renders],
+			link: "https://github.com/Shimmita/jobsAPI254 ",
+		},
+
+		// androids
+
+		{
+			title: "Android Full Gospel Ministry ",
+			description:
+				"mobile application crafted for the management of church services and activities such as member registration, daily prayer posting, weekly verse posting, naturing church talents through advertising one's uniquely content, live tv for streaming ongoing events and previously conducted events. It brings members to one common location where they can interact and be able to track the ongoing church activities get updated timely. uses jetpakcompose and firebase.",
+			logos: [Kotlin, Android, GCPFirebase],
+			link: "https://github.com/Shimmita/full_gospel_android_app",
+		},
+
+		{
+			title: "Android JobWave ",
+			description:
+				"cutting-edge android app built with jetpakcompose. It is powered by a nodejs backend ( jobsAPI254 ). during the development of this app i made use of coroutines for handling asynchronous request to and fro the backend using retrofit library. added functionality of rate limiting and timeouts with api calls for proper utilisation of resources. Honed skills in integration of rest apis with mobile apps and the overall use of kotlin ecosystem in android development.",
+			logos: [Kotlin, Android, Nodjs],
 			link: "https://github.com/Shimmita/JobWave",
 		},
 
 		{
-			title: "Market CM",
+			title: "Android Market CM",
 			description:
-				"Android based marketing application targeting students alias comrades who are in the universities or collages to market their second hand products within their versity arena. Skils: Java, Kotlin, Coroutines, Firebase, Github.",
-			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
-			linkText: "github",
+				"e-commerce mobile app that facilitates the virtual exhibition of goods and sevices to the end users. the application makes use of kotlin 90% and Java 10%. users can post their products and attached prices and wait for approval from the admin. Makes use of firebase for realtime data updates, image compression for light bandwidth uploads and downloads. this app transformed my entire migration journey from Java to Kotlin successfully. ",
+			logos: [Kotlin, Android, GCPFirebase],
 			link: "https://github.com//Shimmita/Marketing-App",
 		},
 
 		{
-			title: "School MS ",
+			title: "Android School MS ",
 			description:
-				"Android Based Mobile Application whic helps in automation of various school Activities thus improving on the performance of the students and overal school output. Skills: Java, Kotlin, Firebase, Github.",
-			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
-			linkText: "github",
+				"application that helps in automation of various school activities such as sending messages to the parent, progressive tracking of student performance and analytical insights, school events calendar management. student, teacher and parent registration. The app has the capacity of displaying to the parents if their child or son in school is suspended or not. This ensures that the parent monitors their child closely in terms of schooling.",
+			logos: [Kotlin, GCPFirebase, Android],
 			link: "https://github.com/Shimmita/School-Management-System",
 		},
 
-		{
-			title: "Blood Bank MS",
-			description:
-				"React based web application powered by Node.js Express backend for optimatisation of blood bank activities such as keeping track of current blood bank levels and managing of donor appointments. Skills:React.js, Redux, Bootstrap, Node.js, Github.",
-			logo: "https://banner2.cleanpng.com/20180720/kha/kisspng-react-javascript-library-redux-user-interface-tesseract-5b52265cc83931.4218499515321104288201.jpg",
-			linkText: "github",
-			link: "https://github.com/Shimmita/Blood-Bank-Management-System",
-		},
+		// flutters
 
 		{
-			title: "JobsAPI254",
+			title: "Flutter Paperpedia ",
 			description:
-				"Node.js Express Restful API with MongoDB Atlas for locating jobs around the globe. Currently the API is meant to locate techjobs. Skils: Node.js Express and MongoDB, Mongo Atlas, API Hosting, Github",
-			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7zQwsBdrzNEq0Wyk2PzHHbCxT8fafhH7Q_Sd91kwjg&s",
-			linkText: "github",
-			link: "https://github.com/Shimmita/jobsAPI254 ",
-		},
-
-		{
-			title: "Paperpedia ",
-			description:
-				"Forget the library scramble! Paperpedia, your sleek Flutter app, grants instant access to a vast library of past papers. Paperpedia is your one-stop shop for conquering exams. Skills: Dart, Flutter, SQlite, Firebase, Github.",
-			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfHQVpYgAxPCQUuu5hq2hmF9M1HSnW0pBn_c8JXl4NiO0FcXlnYFWGocaCybO0NEGJc7w&usqp=CAU",
-			linkText: "github",
+				"sleek designed app utilising material theming that aims to cater for quality pastpaper exams to students from different educational institutions. the role purpose of the app is to provide a robust learning environment for students in universities, collages, and high schools to have an easy way of revising past examination questions. most exams keep repeating questions from previous exams or exams from different institutions, paperpedia ensures that students have access to these resources effectively.",
+			logos: [Flutter, Sqlite, GCPFirebase],
 			link: "https://github.com//Shimmita/paperpedia_flutter",
 		},
 
+		// pythons
 		{
-			title: "Django_REST_CRUD ",
+			title: "ML/AI Image Classification",
 			description:
-				"Python Django REST framework into practice.Used Mixins and Generics in creating Restful APIs,use of authentication and protection routes from unauthorised access.Skills:Python, Django REST, MySQL, Github.",
-			logo: "https://pnghq.com/wp-content/uploads/how-to-create-a-python-png-with-a-transparent-background-2.png",
-			linkText: "github",
-			link: "https://github.com//Shimmita/django_REST_framwork_lab ",
-		},
-		{
-			title: "E-Commerce App",
-			description:
-				"Responsive PHP Web E-commerce app. Used MysQL database for storage and retrieval of data. This was my school project for mastering PHP. Skills: PHP, MySQL, Github.",
-			logo: "https://w7.pngwing.com/pngs/751/3/png-transparent-logo-php-html-others-text-trademark-logo-thumbnail.png",
-			linkText: "github",
-			link: "https://github.com//Shimmita/Marketing-App-Vanilla-PHP ",
-		},
-		{
-			title: "Church MS ",
-			description:
-				"jetpak based android application built for managing church activities such as church membership registration and management, tracking of upcoming church events etc. Skills: Java, Kotlin, JetpakCompose Firebase, Github.",
-			logo: "https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png",
-			linkText: "github",
-			link: "https://github.com//Shimmita/churchEvangelists ",
+				"Machine learning model that is used to classify images into two categories i.e happy or sad, male or female etc. it makes use of convolutional neural networks. made use of this model to distinguish between sad and happy faces. tools used include, tensorflow for grouping the dataset into batches of training, validation and testing, jupyter notebook for providing enviroment where to run the code just like VSCode, openCV for precise extraction of image pixels, pandas and numpy for handling of large arrays of pixels.",
+			logos: [Python, Tensorflow, Pandas, Numpy],
+			link: "https://github.com/Shimmita/ML-Image-Classifier-CNN",
 		},
 
 		{
-			title: "Potfolio",
+			title: "ML/AI Sentiment Analysis",
 			description:
-				"A React.js FrontEnd digital potfolio which i used to develop my potfolio with, yes this potflio! and hosted it on Vercel. during the development I honed my FrontEnd development of using React.js and more other advanced concepts. Skill: React.js, Hosting Web App, Github.",
-			logo: "https://banner2.cleanpng.com/20180720/kha/kisspng-react-javascript-library-redux-user-interface-tesseract-5b52265cc83931.4218499515321104288201.jpg",
-			linkText: "github",
-			link: "https://github.com/Shimmita/portfolio ",
+				"have you ever wondered how most digital platforms are able to figure out a particular comment or message from users and flag it or delete it?. yes then the answer to that is sentiment analysis which makes it easier. this model uses specifically long short term memory or lstm that emanates from recurrent neural networks. the modal is able to analyse the previous context of a message with the proceeding one and conclude if a comments meets a set threshold i.e toxic, obscene, threat etc. used tensorflow, pandas and numpy.",
+			logos: [Python, Tensorflow, Pandas, Numpy],
+			link: "https://github.com/Shimmita/ML-Sentiment-Analysis-RNN",
+		},
+
+		{
+			title: "Python Web Socket and Auth",
+			description:
+				"Utilised python web socket and multithreading functionality to come up with a software which simulates client-server architecture responsible for measuring the efficiency of different search algorithms in finding a string predicate or search string. Facilitated by digital signed certifcate for allowing authentication between the client and server. Finally making the app to run like Linux daemon or service. Locate Readme.md file in GitHub for more info about installation procedure.",
+			logos: [Python, LinuxOS],
+			link: "https://github.com/Shimmita/python_websocket_project",
+		},
+
+		{
+			title: "Django Rental Management ",
+			description:
+				"A complete full stack web application utilising django's battery included features of authentication, templating engine, and ORM for management of rentals by landlords or landladies and guest users in a particular town or area who are seeking vacant guest houses and rooms. users can search for places and locate nearby vacant rooms with their corresponding rental fee. vacant guest houses can also be uploaded and wait for approval from the Admin.",
+			logos: [Python, Django, MySQL],
+			link: "https://github.com/Shimmita/django_rental_management_system",
+		},
+
+		{
+			title: "Django REST Framework",
+			description:
+				"Put Django REST framework into practice. utilised Mixins and Generics in creating Restful APIs, use of authentication and protection routes from unauthorised access. mastered the intricate features of django rest framework and how it is powerful in building progressive web applications especially backend. Based on my exposure i recommend this technology for building scalable and complex applications, not good choice for small projects.",
+			logos: [Python, Django, MySQL],
+			link: "https://github.com//Shimmita/django_REST_framwork_lab ",
+		},
+
+		// PHPs
+
+		{
+			title: "PHP E-Commerce App",
+			description:
+				"practical application that helped me to visualize the concepts gained during the study of php programming course into practical implementation. involves the use of mysqli function that connects with mysql database for backend. the concepts of hashing user passord using cryptographic algorithm such as MD5 digets were applied for any user that creates their account, their passoword is hashed for security reasons. made use of raw mysql queries in management of the records. this honed my mysql skills.",
+			logos: [PHP, MySQL],
+			link: "https://github.com//Shimmita/Marketing-App-Vanilla-PHP ",
 		},
 	],
 };

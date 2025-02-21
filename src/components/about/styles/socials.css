@@ -8,11 +8,14 @@
 .social a,
 .email-wrapper a {
 	text-decoration: none;
+	padding: 10px;
 }
 
 .social-icon {
 	font-size: 15px;
 	color: var(--secondary-color);
+	width: 20px;
+	height: 20px;
 }
 
 .social-text {

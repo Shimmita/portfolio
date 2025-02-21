@@ -44,7 +44,7 @@ const Projects = () => {
 						<p style={{ textAlign:'center' }}>
 							{" "}
 							<a
-								href="https://github.com/Shimmita/"
+								href="https://github.com/Shimmita?tab=repositories"
 								style={{
 									textDecoration: "none",
 									color: "#14b8a6",
@@ -53,7 +53,7 @@ const Projects = () => {
 									boxShadow:'0px 0px 10px'
 								}}
 							>
-								view all coding projects
+								All Coding Projects
 							</a>
 						</p>
 						<div className="projects-list" style={{display:'flex', justifyContent:'center', alignItems:"center", flexWrap:'wrap'}}>

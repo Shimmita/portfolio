@@ -5,7 +5,6 @@
 	border-radius: 20px;
 	opacity: 0.85;
 	height: 100%;
-	
 }
 
 .project a {
@@ -24,7 +23,7 @@
 }
 
 .project-container {
-	padding: 30px;
+	padding: 20px;
 }
 
 .project-logo {
@@ -61,13 +60,8 @@
 	font-size: 13px;
 }
 
-.project-link-text {
-	padding-left: 20px;
-	font-weight: 700;
-}
-
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		max-width: 350px;
 	}
 }

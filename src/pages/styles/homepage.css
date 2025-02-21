@@ -4,7 +4,7 @@
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	padding-top: 130px;
+	padding-top: 100px;
 }
 
 .homepage-container {
@@ -55,12 +55,13 @@
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	padding-top: 30px;
 }
 
 .homepage-social-icon {
 	padding-right: 20px;
 	font-size: 25px;
+	width: 28px;
+	height: 28px;
 	transition: color 0.2s ease-in-out;
 	color: var(--secondary-color);
 }

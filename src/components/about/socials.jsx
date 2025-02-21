@@ -1,17 +1,15 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
-	faTwitter,
+	faFacebookMessenger,
 	faGithub,
 	faLinkedin,
-	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 
 import INFO from "../../data/user";
 
 import "./styles/socials.css";
-import { faMessage } from "@fortawesome/free-regular-svg-icons";
 
 const Socials = () => {
 	return (
@@ -24,19 +22,19 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Call Me</div>
+					<div className="social-text">Call</div>
 				</a>
 			</div>
 
 			<div className="social">
-				<a href={INFO.socials.email}  rel="noreferrer">
+				<a href={INFO.socials.email} rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faMailBulk}
+							icon={faFacebookMessenger}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Email Me</div>
+					<div className="social-text">Email </div>
 				</a>
 			</div>
 
@@ -48,7 +46,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on GitHub</div>
+					<div className="social-text">GitHub</div>
 				</a>
 			</div>
 
@@ -64,24 +62,8 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on LinkedIn</div>
+					<div className="social-text">LinkedIn</div>
 				</a>
-			</div>
-
-			<div className="email">
-				<div className="email-wrapper">
-					<a
-						href={`mailto:${INFO.main.email}`}
-						target="_blank"
-						rel="noreferrer"
-					>
-						<div className="social-icon">
-							<FontAwesomeIcon icon={faEnvelope} />
-						</div>
-
-						<div className="social-text">{INFO.main.email}</div>
-					</a>
-				</div>
 			</div>
 		</div>
 	);
