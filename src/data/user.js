@@ -19,6 +19,7 @@ import React from "../images/react.png";
 import Reddis from "../images/redis.png";
 import Redux from "../images/redux.png";
 import Renders from "../images/render.png";
+import SocketProgramming from "../images/socket.jpeg";
 import Sqlite from "../images/sqlite.png";
 import Tailwind from "../images/tailcss.png";
 import Tensorflow from "../images/tensor.png";
@@ -55,9 +56,9 @@ const INFO = {
 	},
 
 	articles: {
-		title: "Artificial Intelligence Is Transforming the World",
+		title: "Future is Cloud Computing and Artificial Intelligence ",
 		description:
-			"below are my thoughts on artificial intelligence (A.I) and how it could be used to solve real world problems which various individual, society or organisation face.",
+			"below are my thoughts on Cloud Computing and Artificial Intelligence (A.I) and how they could be used to solve real world problems which various individual, society or organisation face.",
 	},
 
 	projects: [
@@ -73,14 +74,14 @@ const INFO = {
 		{
 			title: "React Metatron Dev Platform ",
 			description:
-				"Socio-tech platform which bridges the gap between the prodigy and noob tech enthusiasts into one common location to foster interaction through, instant messaging, posting tech articles and milestones, participating in live software development events, job application from a diverse pool of sources, access to free and paid courses from the the tech experts so that you could learn at your pace!. the app uses react, redux toolkit, redux-persist, bootsrap and material ui for the frontend.",
+				"Socio-tech platform which bridges the gap between the prodigy and noob tech enthusiasts into one common location to foster interaction through, instant messaging, posting tech articles and milestones, participating in live software development events, job application from a diverse pool of sources, access to free and paid courses from the the tech experts so that you could learn at your pace!. the app uses react, redux toolkit, bootsrap and material ui for the frontend.",
 			logos: [React, Redux, Bootstrap, Material],
 			link: "https://github.com/Shimmita/metatron-dev-platform",
 		},
 		{
 			title: "Nodejs Metatron Dev Platform",
 			description:
-				"Backend application that powers metatron dev platform frontend. app follows nodejs best practices and designs using MVC approach. reddis for temporary caching of frequently accessed data to reduce overwhelming of the database, uses cloudinary, supabase, firabase and mongodb atlas for storage of data. embedded media compression capabilities using ffmpeg, sharp for converting images to webp formats. all these have ensured reduced upload and download size of the media thus high performance.",
+				"Backend application that powers metatron dev platform frontend. app follows nodejs best practices and designs using MVC approach. reddis for temporary caching of frequently accessed data to reduce overwhelming of the database, uses cloudinary, supabase, firabase and mongodb atlas for storage of data. embedded media compression capabilities using ffmpeg and sharp for converting images to webp formats. reduced upload and download size thus high performance.",
 			logos: [Nodjs, Reddis, GCPFirebase, MongoDB],
 			link: "https://github.com/Shimmita/metatron-backend-node",
 		},
@@ -95,7 +96,7 @@ const INFO = {
 		{
 			title: "React My Digital Potfolio",
 			description:
-				"Yes, this portfolio you are scrolling its content to know about my experise is backed by this project, haa haa!. learning the intricacies of react, bootstrap and web hosting triggered my curiosity to develop my awsome portfolio that could contain my expetise information on the fly. during the development i honed my skills and proficiency in the use of react and how very time saving the libray is aimed to create articulated UI for frontend. The project is hosted on vercel cloud provider and can be accessed anywhere globally.",
+				"Yes, this portfolio you are scrolling its content to know about my experise is backed by this project, haa haa!. learning the intricacies of react, bootstrap and web hosting triggered my curiosity to develop my awsome portfolio that could contain my expetise information on the fly. during the development i honed my skills and proficiency in the use of react and how very time saving the libray is in creating articulated UIs for frontend. hosted on vercel cloud  and can be accessed anywhere globally.",
 			logos: [Javascript, React, Vercel],
 			link: "https://github.com/Shimmita/portfolio ",
 		},
@@ -113,7 +114,7 @@ const INFO = {
 		{
 			title: "Android Full Gospel Ministry ",
 			description:
-				"mobile application crafted for the management of church services and activities such as member registration, daily prayer posting, weekly verse posting, naturing church talents through advertising one's uniquely content, live tv for streaming ongoing events and previously conducted events. It brings members to one common location where they can interact and be able to track the ongoing church activities get updated timely. uses jetpakcompose and firebase.",
+				"mobile application crafted for the management of church services and activities such as member registration, daily prayer posting, weekly verse posting, naturing church talents through advertising one's uniquely content, live tv for streaming ongoing events and previously conducted events. It brings members to one common location where they can interact and be able to track the ongoing church activities get updated timely. used jetpack and firebase.",
 			logos: [Kotlin, Android, GCPFirebase],
 			link: "https://github.com/Shimmita/full_gospel_android_app",
 		},
@@ -129,7 +130,7 @@ const INFO = {
 		{
 			title: "Android Market CM",
 			description:
-				"e-commerce mobile app that facilitates the virtual exhibition of goods and sevices to the end users. the application makes use of kotlin 90% and Java 10%. users can post their products and attached prices and wait for approval from the admin. Makes use of firebase for realtime data updates, image compression for light bandwidth uploads and downloads. this app transformed my entire migration journey from Java to Kotlin successfully. ",
+				"e-commerce mobile app that facilitates the virtual exhibition of goods and sevices to the end users. the application makes use of kotlin 90% and Java 10%. users can post their products and attached prices and wait for approval from the admin. Makes use of firebase for realtime data updates, image compression for light bandwidth uploads and downloads. this app transformed my entire migration journey from Java to Kotlin for android application development. ",
 			logos: [Kotlin, Android, GCPFirebase],
 			link: "https://github.com//Shimmita/Marketing-App",
 		},
@@ -137,7 +138,7 @@ const INFO = {
 		{
 			title: "Android School MS ",
 			description:
-				"application that helps in automation of various school activities such as sending messages to the parent, progressive tracking of student performance and analytical insights, school events calendar management. student, teacher and parent registration. The app has the capacity of displaying to the parents if their child or son in school is suspended or not. This ensures that the parent monitors their child closely in terms of schooling.",
+				"application that helps in automation of various school activities such as sending messages to the parent, progressive tracking of student performance and analytical insights, school events calendar management. students, teachers and parents registration. The app has the capacity of displaying to the parents if their child or son in school is suspended or not. This ensures that parents monitor their children closely in terms of schooling and tracking their academic progress effectively.",
 			logos: [Kotlin, GCPFirebase, Android],
 			link: "https://github.com/Shimmita/School-Management-System",
 		},
@@ -172,15 +173,15 @@ const INFO = {
 		{
 			title: "Python Web Socket and Auth",
 			description:
-				"Utilised python web socket and multithreading functionality to come up with a software which simulates client-server architecture responsible for measuring the efficiency of different search algorithms in finding a string predicate or search string. Facilitated by digital signed certifcate for allowing authentication between the client and server. Finally making the app to run like Linux daemon or service. Locate Readme.md file in GitHub for more info about installation procedure.",
-			logos: [Python, LinuxOS],
+				"Utilised python web socket and multithreading functionality to come up with a software which simulates client-server architecture responsible for measuring the efficiency of different search algorithms in finding a string predicate or search string. Facilitated by digital signed certifcate for allowing authentication between the client and server. Finally making the app to run like Linux daemon or service. Locate Readme.md file in GitHub for more info about installation procedure and how to make the app run on your system.",
+			logos: [Python, LinuxOS, SocketProgramming],
 			link: "https://github.com/Shimmita/python_websocket_project",
 		},
 
 		{
 			title: "Django Rental Management ",
 			description:
-				"A complete full stack web application utilising django's battery included features of authentication, templating engine, and ORM for management of rentals by landlords or landladies and guest users in a particular town or area who are seeking vacant guest houses and rooms. users can search for places and locate nearby vacant rooms with their corresponding rental fee. vacant guest houses can also be uploaded and wait for approval from the Admin.",
+				"A complete full stack web application utilising django's battery included features of authentication, templating engine, and ORM for management of rentals by landlords or landladies and guest users in a particular town or area who are seeking vacant guest houses and rooms. users can search for places and locate nearby vacant rooms with their corresponding rental fee. vacant guest houses can also be uploaded and wait for approval from the Admin. it honed my expertise on the use of python django in details.",
 			logos: [Python, Django, MySQL],
 			link: "https://github.com/Shimmita/django_rental_management_system",
 		},
@@ -188,7 +189,7 @@ const INFO = {
 		{
 			title: "Django REST Framework",
 			description:
-				"Put Django REST framework into practice. utilised Mixins and Generics in creating Restful APIs, use of authentication and protection routes from unauthorised access. mastered the intricate features of django rest framework and how it is powerful in building progressive web applications especially backend. Based on my exposure i recommend this technology for building scalable and complex applications, not good choice for small projects.",
+				"Put Django REST framework into practice. utilised Mixins and Generics in creating Restful APIs, use of authentication and protection routes from unauthorised access. mastered the intricate features of django rest framework and how it is powerful in building progressive web applications especially backend. Based on my exposure i recommend this technology for building scalable and complex applications, not good choice for small projects since the initial set up is more verbose and not good for prototyping.",
 			logos: [Python, Django, MySQL],
 			link: "https://github.com//Shimmita/django_REST_framwork_lab ",
 		},

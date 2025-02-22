@@ -59,7 +59,7 @@ const skills = {
 		{ title: "Nodejs", image: Nodjs },
 		{ title: "Python FastAPI", image: FastAPI },
 		{ title: "REST APIs", image: RestAPI },
-		{ title: "Socket Programming", image:Socket },
+		{ title: "Web Socket", image:Socket },
 		{ title: "WebRTC", image: WebRTC },
 	],
 	mobile: [],

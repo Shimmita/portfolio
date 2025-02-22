@@ -37,8 +37,7 @@ const Project = (props) => {
 									src={logo}
 									alt="logo"
 									style={{
-										maxWidth: "50",
-										minWidth: "50",
+										width: "70",
 										marginRight: "1rem",
 									}}
 								/>
