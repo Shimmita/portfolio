@@ -224,7 +224,7 @@ function article_2() {
 
 				<div className="article-content">
 					<div className="paragraph">
-						{cloudComputingBenefits.map((data, index) => (
+						{machineLearningBenefits.map((data, index) => (
 							<div style={{ padding: "1rem" }}>
 								<div key={index} style={{ color: "#4CC6B9" }}>
 									{data.title}:
